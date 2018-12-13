@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Desktop / Global view*/
+
+body{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+
+
+#menu {
+	Float: right;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	text-decoration: none;
+	color:#000000;
+	padding: 8px;
+	font-size: 18px;
+}
+
+header{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*Tablet view*/
+
+@media (max-width: 768px) {
+
+	#menu li {
+		display:block;
+		text-align: right;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+/*Mobile view*/
+
+@media (max-width: 400px) {
+.slicknav_menu {
+	display: block;
+}
+	#menu{ 
+	display: none;
+	}
+}
+

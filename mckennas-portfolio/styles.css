@@ -1,0 +1,324 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Desktop / Global view*/
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+	max-width: 1024px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+
+.slicknav_menu {
+    display: none;
+}
+#menu {
+    Float: right;
+}
+#menu li {
+    display: inline-block;
+}
+#menu li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px;
+    font-size: 18px;
+	font-weight:800;
+}
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+	
+}
+
+
+.hero {
+	background-image:url("images/hero background.png");
+	padding: 50px 0px 72px 72px;
+	background-size:cover;
+	
+}
+
+.subheading {
+	color: black;
+	font-weight: 800;
+	font-size: 52px;
+	margin-bottom:-40px;
+	
+	
+	
+}
+
+h1 {
+	color:darkgrey;
+	font-weight: 300;
+	font-size: 33px;
+	
+}
+
+.heading-body-copy{
+	color:white;
+	margin-right: 30%;
+	font-size: 16px;
+	
+}
+
+.GET-TO-KNOW-ME{
+	background-color:#69BECA;
+	padding:8px 30px;
+	text-decoration: none;
+	color:white;
+	font-weight:500;
+}
+.photome{
+            position: absolute;
+			bottom: -230px;
+			left: 80px;
+			z-index: 3;}
+			
+.pink{
+	background-color:lightpink;
+	padding-top: 916px;
+}
+
+.subheadingpink{
+			position: absolute;
+			font-size: 30px;
+			font-weight:800;
+			bottom: -310px;
+			left: 81px;
+			z-index: 3;
+}
+.pinkabout{
+	position: absolute;
+			bottom: -320px;
+			left: 83px;
+			z-index: 3;
+}
+
+.pinkabout0{
+	position: absolute;
+			font-size: 30px;
+			font-weight:504;
+			color: #FFFFFF;
+			bottom: -70px;
+			left: 410px;
+			z-index: 3;
+		
+}
+.aboutmepink1{
+			position: absolute;
+			font-size: 16px;
+			color: #FFFFFF;
+			bottom: -130px;
+			left: 410px;
+			z-index: 3;
+		
+}
+
+.pinkabout2{
+	position: absolute;
+			font-size: 16px;
+			color: #FFFFFF;
+			bottom: -280px;
+			left: 410px;
+			z-index: 3;
+}
+
+
+
+.bannerskills{
+			position: absolute;
+			bottom: -700px;
+			right: 8px;
+			z-index: 3;}
+.bannerskills2{
+			position: absolute;
+			bottom: -700px;
+			left: 8px;
+			z-index: 3;}
+.photoshop{
+		position: absolute;
+			font-size: 16px;
+			font-weight:500;
+			color: #FFFFFF;
+			bottom: -645px;
+			left: 80px;
+			z-index: 3;
+}
+.icon1{
+	position: absolute;
+			bottom: -665px;
+			left: 14px;
+			z-index: 3;}
+
+
+.indesign{
+	position: absolute;
+			font-size: 16px;
+			font-weight:500;
+			color: #FFFFFF;
+			bottom: -645px;
+			left: 270px;
+			z-index: 3;
+}
+.icon2{
+	position: absolute;
+			bottom: -665px;
+			left: 191px;
+			z-index: 3;}
+
+.illustrator{
+	position: absolute;
+			font-size: 16px;
+			font-weight:500;
+			color: #FFFFFF;
+			bottom: -645px;
+			left: 450px;
+			z-index: 3;
+}
+.icon3{
+	position: absolute;
+			bottom: -665px;
+			left: 383px;
+			z-index: 3;}
+
+.photography{
+	position: absolute;
+			font-size: 16px;
+			font-weight:500;
+			color: #FFFFFF;
+			bottom: -645px;
+			left: 650px;
+			z-index: 3;
+}
+.icon4{
+	position: absolute;
+			bottom: -665px;
+			left: 585px;
+			z-index: 3;
+}
+.studio{
+	position: absolute;
+			font-size: 16px;
+			font-weight:500;
+			color: #FFFFFF;
+			bottom: -645px;
+			left: 880px;
+			z-index: 3;
+}
+.icon5{
+	position: absolute;
+			bottom: -665px;
+			left: 796px;
+			z-index: 3;
+}
+			
+.purple{
+	background-color:#5E4C86;
+	padding-top: 10px;
+	
+}
+.skills{
+	color:#534666;
+	font-weight:500;
+	font-size: 230px;
+	font-weight:900;
+	
+}
+
+.contact{
+	background-color:#FFFFFF;
+	padding-top: 300px;
+	padding-bottom: 100px;
+}
+
+
+.col{
+float: left;
+padding:1%;
+}
+.col-lg{
+width: 31.3%;
+height:inherit;
+}
+
+.col-lg img{
+width: 100%;
+height:auto;
+display:block;
+}
+.contact{
+	background-color:white;
+	padding-bottom: 1000px;
+}
+
+.email{
+	position: absolute;
+	bottom: -2160px;
+	left:80px;
+	font-size: 25px;
+	outline-style:auto;
+}
+.email1{
+	position: absolute;
+	bottom: -2160px;
+	left:350px;
+	font-size: 25px;
+	
+}
+.instagram{
+	position: absolute;
+	bottom: -2320px;
+	left:80px;
+	font-size: 25px;
+	outline-style: auto;
+}
+.instagram1{
+	position: absolute;
+	bottom: -2320px;
+	left:350px;
+	font-size: 25px;
+} 
+.phone{
+	position: absolute;
+	bottom: -2500px;
+	font-size:25px;
+	left:80px;
+	outline-style: auto;
+}
+.phone2{
+	position: absolute;
+	bottom: -2500px;
+	left:350px;
+	font-size: 25px;
+}
+#lastbox{
+	background-color:#B8D8B0;
+	padding:40px;
+	
+}
+/*Tablet view*/
+
+@media (max-width: 768px) {
+#menu li {
+    display: block;
+    text-align: right;
+}
+}
+
+/*Mobile view*/
+
+@media (max-width: 400px) {
+.slicknav_menu {
+    display: block;
+}
+#menu {
+    display: none;
+}
+}
